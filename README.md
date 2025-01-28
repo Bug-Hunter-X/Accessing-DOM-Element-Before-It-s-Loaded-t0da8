@@ -1,0 +1,1 @@
+This repository demonstrates a common yet often overlooked error in HTML: attempting to manipulate a DOM element before the browser has fully parsed and rendered it.  The `bug.html` file shows the erroneous code, resulting in an error.  The solution, `bugSolution.html`, demonstrates how to properly handle this using the DOMContentLoaded event listener.
